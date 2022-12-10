@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\qmk_firmware",
+    "\\qmk_firmware\\keyboards",
+    "\\qmk_firmware\\keyboards\\kb",
+    "\\qmk_firmware\\keyboards\\kb\\keymaps",
+    "\\qmk_firmware\\keyboards\\kb\\keymaps\\default"
+  ],
+  "SelectedNode": "\\qmk_firmware\\keyboards\\kb\\rules.mk",
+  "PreviewInSolutionExplorer": false
+}

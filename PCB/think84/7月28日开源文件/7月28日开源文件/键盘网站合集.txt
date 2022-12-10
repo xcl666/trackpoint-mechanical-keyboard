@@ -1,0 +1,26 @@
+网站类：
+键盘布局网站：http://www.keyboard-layout-editor.com/
+定位板生成1：http://builder.swillkb.com/
+定位板生成2：http://www.keyboardcad.com/
+矩阵优化+Qmk：https://kbfirmware.com
+豆仔QMK：http://www.qmkeyboard.cn/（相比上面这个网站功能更多）
+捷配PCB下单：https://www.jiepei.com/
+嘉立创PCB下单：https://www.jlc.com/
+华秋PCB下单：https://www.hqpcb.com/
+猎板PCB下单：https://www.pcbhunt.com/
+键盘在线测试：https://keyboard.bmcx.com/
+
+操作类：
+ctrl+c复制
+ctrl+V粘贴
+ctrl+Z撤销
+ctrl+shift+X：布局传递（原理图选中几个元器件 按下此快捷键 直接把挑选的元器件单独拿出来）
+鼠标中键（按住拖动）：拖动画面
+ALT+鼠标左键：拖动元器件等定位更精准（要在右边快捷栏设置好ALT栅格尺寸1密尔mil最好）
+E：铺铜
+N：测距
+W：导线
+
+
+                                     B站：赏个硬币
+                                   制作不易；赏个硬币 麻烦了

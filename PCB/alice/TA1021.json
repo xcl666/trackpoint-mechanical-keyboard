@@ -1,0 +1,442 @@
+[
+  {
+    "backcolor": "#141414",
+    "name": "Adelheidv1",
+    "author": "floookay",
+    "notes": "# Project: Adelheid, a 75% Alice-like keyboard\nbased on the Arisu, which is based on the Alice, but with a function row!\n\n[PCB, case &amp; wrist rest](https://github.com/floookay/adelheid)\n\n**Why add a function row if you can just use layers?**  \nWhile I agree, it's pretty easy (and probably faster) especially with the Alice layout to access the function keys with a key combo, I tend to use the mouse quite a lot while doing work (like scrolling, navigating the browser, googling,…). So it's nice to just mindlessly hit e.g. refresh with the other hand. Also, this just adds some vertical space, so why not?\n\n**Design goals:**  \n- The F-row should be split between F6 and F7 to keep the secondary colors balanced. Both rows should also be symmetrical and start right above the number row.\n- Keep Arisu's original layout. No other reason than I think it looks the best. Imo FateNozomi did an awesome job with organising the keys so there is enough spacing between.\n\n**Design choices:**\n- The gap between the angled function row and the number keys is 0.25u. Because the - and 2 key are slightly higher, the non angled function keys will also have a slightly larger gap to the keys below.\n- I don't plan on adding any RGB functionality. Maybe I'll add some single color LED underglow and switch lighting at some point.\n- Added support for stepped caps lock.\n\n\nPS. Colors are based on the Dracula theme (and the GMK Dracula set).\n\n\n*Side notes:*  \nIf you happen to be a European coder or translator and having trouble with using your current layout like I did, I suggest taking a look a the [EurKey](https://eurkey.steffen.bruentjen.eu/start.html) layout! Same basic keys like ANSI but with special characters like äŸÆ accessible via `Alt Gr`/`Right Alt` with the corresponding alpha key or somewhere near. German language keys check out perfectly, other languages will probably vary.\n",
+    "switchMount": "cherry",
+    "switchBrand": "gateron",
+    "pcb": true
+  },
+  [
+    {
+      "y": 0.2,
+      "x": 1.5,
+      "c": "#44475a",
+      "t": "#f8f8f2",
+      "a": 6
+    },
+    "F1",
+    {
+      "x": 11.5
+    },
+    "F12"
+  ],
+  [
+    {
+      "y": -0.9499999999999998,
+      "x": 0.2,
+      "c": "#282a36",
+      "t": "#8be9fd"
+    },
+    "Esc",
+    {
+      "x": 14.165,
+      "t": "#f8f8f2"
+    },
+    "F13",
+    {
+      "x": 0.33500000000000085
+    },
+    "PgUp"
+  ],
+  [
+    {
+      "x": 16.95
+    },
+    "Home"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 0.75,
+      "c": "#44475a",
+      "a": 4,
+      "f": 4
+    },
+    "~\n`",
+    "!\n1",
+    {
+      "x": 10.95
+    },
+    "+\n=",
+    "|\n\\",
+    {
+      "c": "#282a36",
+      "a": 6,
+      "f": 3
+    },
+    "Delete"
+  ],
+  [
+    {
+      "y": -0.25,
+      "x": 17.2
+    },
+    "End"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 0.5,
+      "t": "#ff79c6",
+      "a": 4,
+      "w": 1.5
+    },
+    "⇤\n⇥\n\n\n\n\nTab",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2",
+      "f": 5
+    },
+    "Q",
+    {
+      "x": 10.45,
+      "f": 4
+    },
+    "{\n[",
+    "}\n]",
+    {
+      "c": "#282a36",
+      "t": "#ff79c6",
+      "a": 6,
+      "f": 3,
+      "w": 1.5
+    },
+    "Backspace"
+  ],
+  [
+    {
+      "y": -0.25,
+      "x": 17.45,
+      "t": "#f8f8f2"
+    },
+    "PgDn"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 0.25,
+      "t": "#bd93f9",
+      "w": 1.25,
+      "w2": 1.75,
+      "l": true
+    },
+    "Control",
+    {
+      "x": 0.5,
+      "c": "#44475a",
+      "t": "#f8f8f2",
+      "a": 4,
+      "f": 5
+    },
+    "A",
+    {
+      "x": 9.95,
+      "f": 4
+    },
+    ":\n;",
+    "\"\n'",
+    {
+      "c": "#282a36",
+      "t": "#bd93f9",
+      "a": 6,
+      "f": 3,
+      "w": 2.25
+    },
+    "↵ Enter"
+  ],
+  [
+    {
+      "t": "#8be9fd",
+      "w": 2.25
+    },
+    "⇧ Shift",
+    {
+      "c": "#44475a",
+      "t": "#f8f8f2",
+      "a": 4,
+      "f": 5
+    },
+    "Z",
+    {
+      "x": 10.2,
+      "f": 4
+    },
+    "?\n/",
+    {
+      "c": "#282a36",
+      "t": "#8be9fd",
+      "a": 6,
+      "f": 3,
+      "w": 1.75
+    },
+    "⇧ Shift"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 16.45,
+      "t": "#f8f8f2",
+      "a": 4,
+      "f": 6
+    },
+    "↑"
+  ],
+  [
+    {
+      "y": -0.25,
+      "t": "#f1fa8c",
+      "a": 6,
+      "f": 3,
+      "w": 1.5
+    },
+    "Control",
+    {
+      "c": "#e9d2d2",
+      "t": "#000000",
+      "w": 1.25
+    },
+    "Win",
+    {
+      "x": 11,
+      "c": "#cccccc",
+      "w": 1.25
+    },
+    "Control"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 15.45,
+      "c": "#282a36",
+      "t": "#f8f8f2",
+      "a": 4,
+      "f": 6
+    },
+    "←",
+    "↓",
+    "→"
+  ],
+  [
+    {
+      "y": 0.6500000000000004,
+      "x": 6.5,
+      "c": "#cccccc",
+      "t": "#000000",
+      "a": 7,
+      "f": 3
+    },
+    "左",
+    "中",
+    "右"
+  ],
+  [
+    {
+      "rx": 10,
+      "y": 0.2,
+      "x": -7.5,
+      "c": "#44475a",
+      "t": "#f8f8f2",
+      "a": 6
+    },
+    "F2",
+    {
+      "x": 9.5
+    },
+    "F11"
+  ],
+  [
+    {
+      "y": 0.15000000000000013,
+      "x": -7.25,
+      "a": 4,
+      "f": 4
+    },
+    "@\n2",
+    {
+      "x": 8.95
+    },
+    "_\n-"
+  ],
+  [
+    {
+      "r": 12,
+      "rx": 8.5,
+      "ry": 3.5,
+      "y": -2.25,
+      "x": -5.35,
+      "a": 6,
+      "f": 3
+    },
+    "F3",
+    "F4",
+    {
+      "x": 0.25,
+      "c": "#282a36"
+    },
+    "F5",
+    "F6"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": -4.85,
+      "c": "#44475a",
+      "a": 4,
+      "f": 4
+    },
+    "#\n3",
+    "$\n4",
+    "%\n5",
+    "^\n6"
+  ],
+  [
+    {
+      "x": -5.35,
+      "f": 5
+    },
+    "W",
+    "E",
+    "R",
+    "T"
+  ],
+  [
+    {
+      "x": -5.1
+    },
+    "S",
+    "D",
+    {
+      "n": true
+    },
+    "F",
+    "G"
+  ],
+  [
+    {
+      "x": -4.6
+    },
+    "X",
+    "C",
+    "V",
+    "B"
+  ],
+  [
+    {
+      "x": -4.6,
+      "c": "#282a36",
+      "t": "#bd93f9",
+      "a": 6,
+      "f": 3
+    },
+    "Alt",
+    {
+      "c": "#44475a",
+      "t": "#8be9fd",
+      "p": "SPACE",
+      "w": 1.25
+    },
+    "FN",
+    {
+      "c": "#282a36",
+      "w": 2
+    },
+    "SPACE"
+  ],
+  [
+    {
+      "r": -12,
+      "ry": 3.25,
+      "y": -2.05,
+      "x": 0.5500000000000007,
+      "t": "#f8f8f2"
+    },
+    "F7",
+    "F8",
+    {
+      "x": 0.25,
+      "c": "#44475a"
+    },
+    "F9",
+    "F10"
+  ],
+  [
+    {
+      "y": 0.25,
+      "x": -0.7000000000000002,
+      "t": "#000000\n#ed2476",
+      "a": 4
+    },
+    "^\n6",
+    {
+      "t": "#f8f8f2",
+      "f": 4
+    },
+    "&\n7",
+    "*\n8",
+    "(\n9",
+    ")\n0"
+  ],
+  [
+    {
+      "x": -0.1999999999999993,
+      "f": 5
+    },
+    "Y",
+    "U",
+    "I",
+    "O",
+    "P"
+  ],
+  [
+    {
+      "x": 0.05000000000000071
+    },
+    "H",
+    {
+      "n": true
+    },
+    "J",
+    "K",
+    "L"
+  ],
+  [
+    {
+      "x": -0.7000000000000002,
+      "t": "#4b1616"
+    },
+    "B",
+    {
+      "t": "#f8f8f2"
+    },
+    "N",
+    "M",
+    {
+      "f": 4
+    },
+    "<\n,",
+    ">\n."
+  ],
+  [
+    {
+      "x": -0.1999999999999993,
+      "t": "#000000",
+      "a": 6,
+      "f": 3,
+      "w": 2
+    },
+    "SPACE",
+    {
+      "c": "#282a36",
+      "t": "#bd93f9",
+      "w": 1.25
+    },
+    "FN1",
+    {
+      "t": "#f82d2d",
+      "w": 1.25
+    },
+    "Alt"
+  ]
+]

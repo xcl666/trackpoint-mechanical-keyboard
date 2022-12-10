@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\tpthreekeys",
+    "\\tpthreekeys\\qmk_firmware",
+    "\\tpthreekeys\\qmk_firmware\\keyboards",
+    "\\tpthreekeys\\qmk_firmware\\keyboards\\kb",
+    "\\tpthreekeys\\qmk_firmware\\keyboards\\kb\\keymaps",
+    "\\tpthreekeys\\qmk_firmware\\keyboards\\kb\\keymaps\\default"
+  ],
+  "SelectedNode": "\\tpthreekeys\\qmk_firmware\\keyboards\\kb\\rules.mk",
+  "PreviewInSolutionExplorer": false
+}
