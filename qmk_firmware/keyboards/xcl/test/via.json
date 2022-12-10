@@ -1,0 +1,16 @@
+{
+  "name": "Think",
+  "vendorId": "0xDE29",
+  "productId": "0x7310",
+  "lighting": "none",
+  "matrix": {
+    "rows": 1,
+    "cols": 2
+  },
+  "layouts": {
+    "keymap": [
+      ["0,0", "0,1"]
+      
+    ]
+  }
+}

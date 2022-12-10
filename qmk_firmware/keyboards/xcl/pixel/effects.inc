@@ -1,0 +1,7 @@
+#include "effects/dino.h"
+#include "effects/heart.h"
+#include "effects/outrun.h"
+#include "effects/pac_dude.h"
+#include "effects/stripes.h"
+#include "effects/dot.h"
+#include "effects/wpm_chart.h"

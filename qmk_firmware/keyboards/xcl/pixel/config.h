@@ -1,0 +1,46 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#include "config_common.h"
+
+/* Device */
+#define VENDOR_ID       0xDE29
+#define PRODUCT_ID      0x7313
+#define DEVICE_VER      0x0002
+#define MANUFACTURER    Leo Deng
+#define PRODUCT         Pixel
+#define DESCRIPTION     LED Matrix with Adafruit CharliePlex FeatherWing
+
+/* Matrix */
+#define MATRIX_ROWS 3
+#define MATRIX_COLS 3
+#define MATRIX_ROW_PINS { D7, B5, B6 }
+#define MATRIX_COL_PINS { D4, E6, B3 }
+#define DIODE_DIRECTION COL2ROW // COL2ROW or ROW2COL
+
+#define DEBOUNCE 5
+#define TAP_CODE_DELAY 10
+#define PREVENT_STUCK_MODIFIERS
+
+/* LED Matrix */
+#ifdef LED_MATRIX_ENABLE
+#define LED_DRIVER_ADDR_1 0b1110100
+#define LED_DRIVER_COUNT 1
+#define DRIVER_LED_TOTAL 105
+#define LED_MATRIX_ROWS 15
+#define LED_MATRIX_COLS 7
+#define LED_MATRIX_MAXIMUM_BRIGHTNESS 20
+#define LED_DISABLE_WHEN_USB_SUSPENDED true
+#define BACKLIGHT_LEVELS 5
+
+#define TERRAZZO_ANIMATION_SPEED 150
+// #define DISABLE_TERRAZZO_EFFECT_DINO
+// #define DISABLE_TERRAZZO_EFFECT_HEART
+// #define DISABLE_TERRAZZO_EFFECT_OUTRUN
+// #define DISABLE_TERRAZZO_EFFECT_PAC_DUDE
+// #define DISABLE_TERRAZZO_EFFECT_STRIPES
+// #define DISABLE_TERRAZZO_EFFECT_DOT
+// #define DISABLE_TERRAZZO_EFFECT_WPM_CHART
+#endif
+
+#endif
