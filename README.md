@@ -9,3 +9,8 @@
 备注：qmk代码是参考 myst729
 
 ![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/Pic/TA1021.jpg)
+
+欢迎支持作者，让作者喝杯咖啡，继续完善DIY文档，哈哈，非常感谢
+
+![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/Pic/wechat.jpg)
+![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/Pic/alipay.jpg)
