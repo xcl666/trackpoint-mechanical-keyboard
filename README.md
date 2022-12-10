@@ -7,3 +7,5 @@
 4，欢迎进QQ群199606725交流学习
 
 备注：qmk代码是参考 myst729
+
+![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/TA1021.jpg)
