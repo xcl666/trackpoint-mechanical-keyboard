@@ -8,4 +8,4 @@
 
 备注：qmk代码是参考 myst729
 
-https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/TA1021.jpg
+![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/TA1021.jpg)
