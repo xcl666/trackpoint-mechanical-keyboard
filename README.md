@@ -6,6 +6,8 @@
 
 4，欢迎进QQ群199606725交流学习
 
+5, 发现这样写太累了，抽个时间，写个word，好好梳理一下吧，再传上来。
+
 ![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/Pic/TA1021.jpg)
 
 备注：qmk代码是参考 myst729
