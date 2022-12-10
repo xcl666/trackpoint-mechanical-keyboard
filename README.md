@@ -6,6 +6,8 @@
 
 4，欢迎进QQ群199606725交流学习
 
+![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/Pic/TA1021.jpg)
+
 备注：qmk代码是参考 myst729
 
 现在就开始讲一下怎么制作键盘了。
@@ -27,7 +29,7 @@
 8，小红点支撑杆可以3D打印，有模型，不知道我传了没有。
 
 9，装上轴和键帽，就走起了。
-![image](https://github.com/xcl666/trackpoint-mechanical-keyboard/blob/main/Pic/TA1021.jpg)
+
 
 欢迎支持作者，让作者喝杯咖啡，继续完善DIY文档，哈哈，非常感谢
 
